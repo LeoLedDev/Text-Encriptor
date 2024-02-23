@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.header {
+    width: 90%;
+    margin: auto;
+    background: #f3f5fc;
+}
+
+.logoAlura {
+   margin-top: 40px;
+}
+
 .container {
     position: relative;
     width: 100vw;
@@ -71,6 +81,9 @@
     width: 80%;
     left: 12%;
     top: 82%;
+    gap: 24px;
+    
+   
 }
 
 .btn-encriptar {
@@ -86,6 +99,7 @@
     line-height: 19px;
     text-align: center;
     color: white;
+    
 }
 
 .btn-desencriptar {
@@ -106,6 +120,7 @@
     line-height: 19px;
     text-align: center;
     color: #0a3871;
+    
 
 }
 
@@ -213,6 +228,7 @@
     .btn-encriptar, .btn-desencriptar {
         width: 48%;
         border-radius: 16px;
+       gap: 24px;
     }
 
     .btn-encriptar:hover,
@@ -220,6 +236,7 @@
     margin: 0.3%;
     width: 47.5%;
     padding: 1.8%;
+    
 
     }
 
@@ -236,11 +253,13 @@
         top: 5%;
     }
 
-    .encriptado img {
+    .encriptado img, .logoAlura {
         top: 0;
         display: none;
         visibility: hidden;
     }
+
+   
 
     
 }

@@ -1,3 +1,4 @@
+
 function encriptar() {
     let texto = document.getElementById("texto").value;
     let tituloMensaje = document.getElementById("titulo-mensaje");
@@ -19,8 +20,8 @@ function encriptar() {
     } else {
         persona.src = "./img/muñeco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado"
-        parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
-        alert("Debes ingresar algun texto")
+        parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
+        alert("Debes ingresar un texto para encriptar")
     }
 
 
@@ -51,7 +52,7 @@ function desencriptar() {
     } else {
         persona.src = "./img/muñeco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado"
-        parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
-        alert("Debes ingresar algun texto")
+        parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
+        alert( "Debes ingresar un texto para desencriptar")
     }
 }
